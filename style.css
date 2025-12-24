@@ -1,8 +1,11 @@
+/* Load VT323 for all pages */
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-
 }
 
 h1 {
@@ -102,16 +105,17 @@ img,
     left: 50%;
     top: -8px;
     transform: translate(-50%, -100%);
-    background: rgba(255, 255, 255, 0.337);
+    background: rgba(205, 205, 205, 0.337);
     color: #000000;
     padding: 6px 8px;
     border-radius: 4px;
-    font-size: 12px;
     white-space: nowrap;
     pointer-events: none;
     opacity: 0.1;
     transition: opacity 140ms ease, transform 140ms ease;
 }
+
+
 
 /* TV static overlay under hotspot (uses an animated GIF at images/tv-static.gif) */
 .map-wrapper img {
